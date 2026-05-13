@@ -3,9 +3,19 @@
 #T_Daniel oszlop
 
 import turtle
-from secrets import token_urlsafe
+turtle.fillcolor("black")
+i=0
+turtle.penup()
+turtle.goto(-230, 200)
+turtle.pendown()
 
+turtle.forward(100)
+turtle.right()
+
+turtle.done()
 #hatter
+import turtle
+turtle.speed(0)
 
 turtle.color("lightblue")
 turtle.penup()
@@ -20,6 +30,40 @@ turtle.right(90)
 turtle.forward(300)
 turtle.right(90)
 turtle.forward(600)
+turtle.end_fill()
+
+#oszlop
+turtle.color("grey")
+turtle.penup()
+turtle.fillcolor("grey")
+turtle.begin_fill()
+turtle.goto(-175,25)
+turtle.pendown()
+turtle.right(90)
+turtle.forward(75)
+turtle.right(90)
+turtle.forward(300)
+turtle.right(90)
+turtle.forward(75)
+turtle.right(90)
+turtle.forward(300)
+turtle.end_fill()
+
+#lampatest
+
+turtle.color("black")
+turtle.fillcolor("black")
+turtle.begin_fill()
+turtle.left(90)
+turtle.forward(50)
+turtle.right(90)
+turtle.forward(250)
+turtle.right(90)
+turtle.forward(175)
+turtle.right(90)
+turtle.forward(250)
+turtle.right(90)
+turtle.forward(150)
 turtle.end_fill()
 
 #lámpa
@@ -52,6 +96,3 @@ turtle.end_fill()
 
 
 turtle.done()
-
-
-
