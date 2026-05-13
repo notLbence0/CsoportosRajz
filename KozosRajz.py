@@ -2,6 +2,17 @@
 #T_Daniel hatter
 #T_Daniel oszlop
 
+import turtle
+turtle.fillcolor("black")
+i=0
+turtle.penup()
+turtle.goto(-230, 200)
+turtle.pendown()
+
+turtle.forward(100)
+turtle.right()
+
+turtle.done()
 #hatter
 import turtle
 turtle.speed(0)
